@@ -91,7 +91,6 @@
             if (SongPlayer.currentSong !== song){
                 setSong(song);
                 playSong(song);
-                console.log(SongPlayer.currentSong);
             } else if (SongPlayer.currentSong === song){
                 if(currentBuzzObject.isPaused()){
                     currentBuzzObject.play();
